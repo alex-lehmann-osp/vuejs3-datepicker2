@@ -6,12 +6,12 @@
     "build/*"
   ],
   "type": "module",
-  "module": "./build/vuejs3-datepicker.js",
-  "main": "./build/vuejs3-datepicker.umd.cjs",
+  "module": "./build/vuejs3-datepicker2.js",
+  "main": "./build/vuejs3-datepicker2.umd.cjs",
   "exports": {
     ".": {
-      "import": "./build/vuejs3-datepicker.js",
-      "require": "./build/vuejs3-datepicker.umd.cjs"
+      "import": "./build/vuejs3-datepicker2.js",
+      "require": "./build/vuejs3-datepicker2.umd.cjs"
     }
   },
   "scripts": {
