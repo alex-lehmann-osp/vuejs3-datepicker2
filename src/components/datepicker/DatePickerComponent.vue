@@ -161,10 +161,12 @@ export default defineComponent({
   },
   props: {
     modelValue: {
-      type: [Date as new () => Date, String, Number],
+      type: [Date as new () => Date, String, Number, null],
+      default: null,
     },
     value: {
-      type: [Date as new () => Date, String, Number],
+      type: [Date as new () => Date, String, Number, null],
+      default: undefined,
     },
     format: {
       type: [String, Function],
@@ -188,37 +190,46 @@ export default defineComponent({
       default: 'year',
     },
     name: {
-      type: String,
+      type: [String],
+      default: undefined,
     },
     id: {
       type: String,
+      default: undefined,
     },
     dayCellContent: {
       type: Function,
+      default: undefined,
     },
     fullMonthName: {
       type: Boolean,
     },
     disabledDates: {
       type: Object,
+      default: undefined,
     },
     highlighted: {
       type: Object,
+      default: undefined,
     },
     placeholder: {
       type: String,
+      default: undefined,
     },
     inline: {
       type: Boolean,
     },
     calendarClass: {
       type: [String, Object, Array],
+      default: undefined,
     },
     inputClass: {
       type: [String, Object, Array],
+      default: undefined,
     },
     wrapperClass: {
       type: [String, Object, Array],
+      default: undefined,
     },
     mondayFirst: {
       type: Boolean,
@@ -228,21 +239,25 @@ export default defineComponent({
     },
     clearButtonIcon: {
       type: String,
+      default: undefined,
     },
     calendarButton: {
       type: Boolean,
     },
     calendarButtonIcon: {
       type: String,
+      default: undefined,
     },
     calendarButtonIconContent: {
       type: String,
+      default: undefined,
     },
     addBootstrapClass: {
       type: Boolean,
     },
     initialView: {
       type: String,
+      default: undefined,
     },
     disabled: {
       type: Boolean,
@@ -292,7 +307,7 @@ export default defineComponent({
     'selected',
     'selected-disabled',
   ],
-  setup(props, { emit }) {
+  setup(props: any, { emit }) {
     const initmodelvalue = new Date(props.modelValue as unknown as Date);
     const pageTimestamp = ref<number>(0);
     const selectedDate = ref<Date | string | null>(null);
@@ -323,7 +338,7 @@ export default defineComponent({
 
     const translation = computed(() => {
       const temp = (Langlist as any).data;
-      return temp[props.language as any];
+      return temp[props.language];
     });
 
     const isInline = computed(() => {
@@ -572,7 +587,7 @@ export default defineComponent({
      */
     function init(): void {
       if (props.value) {
-        setValue(props.value as any);
+        setValue(props.value);
       }
       if (isInline.value) {
         setInitialView();
