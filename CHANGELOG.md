@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/alex-lehmann-osp/vuejs3-datepicker2/compare/v1.2.3...v1.2.4) (2025-03-20)
+
+
+### Bug Fixes
+
+* add 'null' to type of modelValue ([b10fdc6](https://github.com/alex-lehmann-osp/vuejs3-datepicker2/commit/b10fdc66e36c240e91f825d0ae6355d6b405586c))
+
 ## [1.2.3](https://github.com/alex-lehmann-osp/vuejs3-datepicker2/compare/v1.2.2...v1.2.3) (2025-03-20)
 
 
