@@ -7,7 +7,20 @@ import dts from 'vite-plugin-dts';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(), libCss(), dts({ entryRoot: './src/components/datepicker' })],
+  plugins: [
+    vue(),
+    libCss(),
+    dts({
+      entryRoot: './src/components/datepicker',
+      beforeWriteFile: (filePath: string, content: string) =>
+        filePath.endsWith('DatePickerComponent.vue.d.ts')
+          ? {
+              filePath: filePath.replace('DatePickerComponent.vue', 'vuejs3-datepicker2'),
+              content,
+            }
+          : false,
+    }),
+  ],
   build: {
     minify: true,
     outDir: 'build',
