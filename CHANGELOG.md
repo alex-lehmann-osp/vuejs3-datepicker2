@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/alex-lehmann-osp/vuejs3-datepicker2/compare/v1.1.3...v1.2.0) (2025-03-20)
+
+
+### Bug Fixes
+
+* bump dependencies ([75f51d5](https://github.com/alex-lehmann-osp/vuejs3-datepicker2/commit/75f51d540bc2f762e4ed43dbca4bf3d30ce46a93))
+* move vite-plugin-dts into dev dependencies ([cdf0f5f](https://github.com/alex-lehmann-osp/vuejs3-datepicker2/commit/cdf0f5f8bddeaf7ae88e92c6ac7d2196a3c45603))
+
+
+### Features
+
+* rename pkg, update git repo url ([6d9a1e8](https://github.com/alex-lehmann-osp/vuejs3-datepicker2/commit/6d9a1e87d6efbeccf0dc7787b5590886832babad))
+
 ## [1.1.3](https://github.com/shubhadip/vuejs3-datepicker/compare/v1.1.2...v1.1.3) (2024-05-14)
 
 
