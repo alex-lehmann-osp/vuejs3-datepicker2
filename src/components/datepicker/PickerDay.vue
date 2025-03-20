@@ -61,7 +61,7 @@ import {
   stringToDate,
 } from './utils/DateUtils';
 
-interface IDays {
+export interface IDays {
   date: number;
   timestamp: number;
   isSelected: boolean;

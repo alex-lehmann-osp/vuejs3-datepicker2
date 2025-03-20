@@ -1,5 +1,5 @@
 import { PropType } from 'vue';
-interface IMonths {
+export interface IMonths {
     month: number;
     timestamp: number;
     isSelected: boolean;

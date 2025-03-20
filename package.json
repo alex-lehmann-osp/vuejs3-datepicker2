@@ -5,6 +5,7 @@
   "files": [
     "build/*"
   ],
+  "types": "./build/DatePickerComponent.vue.d.ts",
   "type": "module",
   "module": "./build/vuejs3-datepicker2.js",
   "main": "./build/vuejs3-datepicker2.umd.cjs",

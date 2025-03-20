@@ -52,7 +52,7 @@ import {
   stringToDate,
 } from './utils/DateUtils';
 
-interface IMonths {
+export interface IMonths {
   month: number;
   timestamp: number;
   isSelected: boolean;
