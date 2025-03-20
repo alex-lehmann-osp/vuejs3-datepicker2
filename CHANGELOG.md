@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/alex-lehmann-osp/vuejs3-datepicker2/compare/v1.2.1...v1.2.2) (2025-03-20)
+
+
+### Bug Fixes
+
+* type declarations, build warnings ([8d8aff5](https://github.com/alex-lehmann-osp/vuejs3-datepicker2/commit/8d8aff56eb98e1906dc54933cef228cd2266b373))
+
 ## [1.2.1](https://github.com/alex-lehmann-osp/vuejs3-datepicker2/compare/v1.2.0...v1.2.1) (2025-03-20)
 
 

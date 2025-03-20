@@ -1,6 +1,6 @@
 {
   "name": "vuejs3-datepicker2",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Vue 3 datepicker",
   "files": [
     "build/*"
