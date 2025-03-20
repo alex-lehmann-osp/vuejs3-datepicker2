@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/alex-lehmann-osp/vuejs3-datepicker2/compare/v1.2.0...v1.2.1) (2025-03-20)
+
+
+### Bug Fixes
+
+* exports in package.json ([da2a611](https://github.com/alex-lehmann-osp/vuejs3-datepicker2/commit/da2a61178b91e881e5bd07de5655076662fd2bf2))
+
 # [1.2.0](https://github.com/alex-lehmann-osp/vuejs3-datepicker2/compare/v1.1.3...v1.2.0) (2025-03-20)
 
 
