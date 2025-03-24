@@ -1,6 +1,7 @@
-# Vue 3 Datepicker
+# Vue 3 Datepicker2
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9289e513-2cf9-4b4f-a3a5-f265d691c26c/deploy-status)](https://app.netlify.com/sites/vuejs3-datepicker/deploys)
+> [!IMPORTANT]
+> This is a fork and drop-in replacement of vuejs3-datepicker with updated and cleaned up dependencies. When the original project becomes active again, the changes can hopefully be merged back into the upstream repo (see [PR #98](https://github.com/shubhadip/vuejs3-datepicker/pull/98)).
 
 A datepicker Vue component. Compatible with Vue 3 Only
 
@@ -22,13 +23,13 @@ To view a demo online: <https://vuejs3-datepicker.netlify.app/>
 ## Install
 
 ``` bash
-npm install vuejs3-datepicker --save
+npm install vuejs3-datepicker2 --save
 
-yarn add vuejs3-datepicker
+yarn add vuejs3-datepicker2
 ```
 
 ``` javascript
-import Datepicker from 'vuejs3-datepicker';
+import Datepicker from 'vuejs3-datepicker2';
 
 export default {
   // ...
